@@ -7,7 +7,7 @@ def calcAngle(hh, mm):
 	m = (mm * 360) // (60)
 	# calculate the angle difference
 	angle = abs(h - m)
-	# consider the shorter angle and return it
+	# consider the shorter angle and return
 	if angle > 180:
 		angle = 360 - angle
 	return angle
